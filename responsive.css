@@ -152,7 +152,7 @@
      }
 
      .one-container{
-        max-width: 100%;
+        /* max-width: 100%; */
      }
 
        .one-container img{
@@ -268,6 +268,7 @@
      #inside-third-container{
             margin-right: 40px;
             margin-left: 40px;
+            padding: 35px;
         }
         #second-container{
             margin-right: 40px;
@@ -360,6 +361,102 @@
      }
      #inside-third-container{
         padding: 28px;
+        margin: auto;
+     }
+
+     .last-container h4{
+        font-size: 8px;
+     }
+     .social-media img{
+        width: 15px;
+     }
+     .social-media{
+        gap: 12px;
+     }
+     #footer-container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+     }
+}
+
+/* m-size-mobile */
+@media screen and (max-width: 375px){
+        #firt-container {
+       display: flex;
+       flex-direction: column-reverse;
+       /* justify-content: space-between; */
+       align-items: self-start;
+    }
+    .left-container h1{
+        font-size: 28px;
+    }
+
+    .right-container img{
+        width: 100%;
+    }
+
+    .btn-container{
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .btn-container2{
+         width: 100px;
+        height: 50px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .services h2{
+        font-size: 25px;
+    }
+
+    .services h4{
+        font-size: 15px;
+    }
+
+    .explore-container img{
+        width: 60px;
+    }
+    .explore-container p{
+        font-size: 12px;
+    }
+     .btn-explore{
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .countries h4{
+        font-size: 18px;
+    }
+    .reviews h4{
+        font-size: 18px;
+    }
+    .explore h4{
+         font-size: 18px;
+    }
+
+    .first-reviews img{
+        width: 100px;
+        height: 15px;
+    }
+    .second-reviews img{
+        width: 100px;
+        height: 15px;
+    }
+    /* #fifth-container{
+        display: flex;
+        flex-direction: column;
+    } */
+     .two-container p{
+        font-size: 12px;
+     }
+     #inside-third-container{
+        padding: 30px;
         margin: auto;
      }
 
