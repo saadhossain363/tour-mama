@@ -1,0 +1,495 @@
+*{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff, #EBDCFF);
+}
+
+img{
+    width: 100%;
+}
+#firt-container {
+    border: 2px solid #872BFF10;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 120px auto;
+    background-image: url(./images/hero-bg.png);
+    padding: 20px 30px 20px 30px;
+    width: 87.5%;
+}
+
+.left-container {
+    width: 50%;
+}
+.left-container *{
+    margin-bottom: 20px;
+}
+
+.left-container h1{
+    font-weight: bold;
+    font-size: 70px;
+}
+.left-container span {
+    color: #F411CF;
+}
+.left-container p{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 36px 0px 36px 0px;
+}
+.btn-container{
+    border: 2px solid #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    background-color: #872BFF;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-container:hover {
+    background-color: #5400c2;
+}
+.btn-container2{
+    border:2px solid, #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-container2:hover{
+    background-color: #872BFF;
+    color: white;
+}
+
+#second-container {
+    margin: 120px auto 120px auto;
+    
+}
+
+.services {
+    /* display: flex;
+    justify-content: center; */
+    
+    text-align: center;
+}
+
+.services h4{
+    align-items: center;
+    color: #F411CF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.services h2{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+#three-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.one-container{
+    border: 1px solid #FDFFFF;
+    border-radius: 30px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    padding: 60px 30px ;
+    /* margin-right: 60px; */
+}
+
+.one-container img{
+    width: 70px;
+    height: 70px;
+}
+
+.one-container h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 60px;
+    
+}
+
+.one-container p{
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 12px;
+    line-height: 25px;
+}
+
+.two-container {
+    border: 1px solid #FDFFFF;
+    border-radius: 30px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    padding: 60px 30px ;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.two-container img{
+    width: 70px;
+    height: 70px;
+}
+.two-container h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.two-container p{
+     font-weight: lighter;
+    font-size: 15px;
+    margin: 12px;
+    line-height: 25px;
+}
+
+.three-container {
+    border: 1px solid #FDFFFF;
+    border-radius: 30px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    padding: 60px 30px ;
+    /* margin-left: 30px; */
+}
+
+.three-container img{
+    width: 70px;
+    height: 70px;
+}
+
+.three-container h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.three-container p{
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 12px;
+    line-height: 25px;
+}
+
+#third-container{
+    margin: 120px auto 120px auto;
+}
+.explore {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.explore h4{
+    align-items: center;
+    color: #F411CF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.explore h2{
+    font-weight: bold;
+    font-size: 44px;
+}
+
+#inside-third-container {
+    border: 2px solid none;
+    border-radius: 20px;
+    display: flex;
+    padding: 48px 48px 48px 48px;
+    background-color: #ffffff;
+}
+
+.img-contaienr img{
+    padding-right: 30px;
+    width: 408px;
+    height: 306px;
+}
+
+.explore-container h3{
+    color: #0E0E0E80;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.explore-container p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.explore-container img{
+    width: 100px;
+}
+
+.btn-explore {
+    border: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    background-color: #872BFF;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-explore:hover {
+    background-color: #5400c2;
+}
+
+#fourth-container {
+    border: 2px solid none;
+    margin: 120px auto 120px auto;
+}
+
+.countries {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.countries h4 {
+    /* align-items: center; */
+    color: #F411CF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.countries h2{
+    font-weight: bold;
+    font-size: 44px;
+}
+
+.all-countries{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+
+.inida{
+    color: black;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    border: 1px solid #0E0E0E15;
+    border-radius: 15%;
+    margin-right: 24px;
+}
+
+.bangladesh{
+     color: black;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    border: 1px solid #0E0E0E15;
+    border-radius: 15%;
+    margin-right: 24px;
+}
+
+.Maldip{
+     color: black;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    border: 1px solid #0E0E0E15;
+    border-radius: 15%;
+    margin-right: 24px;
+}
+
+.Bhutan{
+     color: black;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    border: 1px solid #0E0E0E15;
+    border-radius: 15%;
+    margin-right: 24px;
+}
+
+.china {
+    color: black;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    border: 1px solid #0E0E0E15;
+    border-radius: 15%;
+    margin-right: 24px;
+}
+
+.under-countries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.thailand{
+     color: black;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    border: 1px solid #0E0E0E15;
+    border-radius: 15%;
+    margin-right: 24px;
+}
+
+.japan {
+     color: black;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    text-transform: uppercase;
+    border: 1px solid #0E0E0E15;
+    border-radius: 15%;
+    margin-right: 24px;
+}
+
+.-countries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.btn-countries{
+     border: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    background-color: #872BFF;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-countries:hover{
+    background-color: #5400c2;
+}
+
+#fifth-container {
+     border: 2px solid none ;
+    margin: 120px auto 120px auto;
+}
+
+.reviews{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reviews h4{
+    color: #F411CF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.reviews h2 {
+     font-weight: bold;
+    font-size: 44px;
+}
+
+.first-reviews {
+    border: 1px solid none;
+    border-radius: 16px;
+    padding: 24px 24px 24px 24px;
+    text-align: center;
+    background-color: white;
+}
+
+.first-reviews img{
+    width: 270.77px;
+    height: 35px;
+}
+.first-reviews p{
+    color: #0E0E0E80;
+    font-size: 16px;
+}
+
+.first-reviews h5{
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+
+
+/* .star-reviews{
+    display: flex;
+   
+    justify-content: center;
+    align-items: baseline;
+    gap: inherit;
+
+    
+}  */
+
+
+
+.second-reviews {
+    border: 1px solid none;
+    border-radius: 16px;
+    padding: 24px 24px 24px 24px;
+    text-align: center;
+    background-color: white;
+    margin-top: 60px;
+}
+
+.second-reviews img{
+     width: 270.77px;
+    height: 35px;
+}
+.second-reviews p{
+    color: #0E0E0E80;
+    font-size: 16px;
+}
+
+.second-reviews h5{
+     margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+#footer-container {
+    border: 1px solid none;
+    margin-top: 120px;
+    background-color: white;
+}
+
+.last-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.social-media{
+    display: flex;
+    gap: 30px;
+}
+
+
+.last-container h4{
+    color: #5B5757;
+    font-size: 16px;
+}
